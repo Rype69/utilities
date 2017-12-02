@@ -243,11 +243,42 @@ namespace RyanPenfold.Utilities.IO
             // Delete all the directories in this directory
             foreach (var strDir in System.IO.Directory.GetDirectories(path))
             {
-                RemoveDirectory(strDir);
+                // Delete the sub directory @ "strDir" - attempt #1
+                try
+                {
+                    RemoveDirectory(strDir);
+                }
+                catch
+                {
+                }
+
+                // Delete the sub directory @ "strDir" - attempt #2
+                try
+                {
+                    System.IO.Directory.Delete(strDir, true);
+                }
+                catch
+                {
+                }
             }
 
-            // Delete the directory itself
-            RemoveDirectory(path);
+            // Delete the root directory @ path - attempt #1
+            try
+            {
+                RemoveDirectory(path);
+            }
+            catch
+            {
+            }
+
+            // Delete the root directory @ path - attempt #2
+            try
+            {
+                System.IO.Directory.Delete(path, true);
+            }
+            catch
+            {
+            }
         }
 
         /// <summary>
