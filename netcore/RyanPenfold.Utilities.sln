@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.UI.Console", "RyanPenfold.Utilities.UI.Console\RyanPenfold.Utilities.UI.Console.xproj", "{97CE2978-A4B2-44B1-89BB-A967EDBB811B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities", "RyanPenfold.Utilities\RyanPenfold.Utilities.xproj", "{5BF775E8-BD5A-4035-BF8B-F949902A3E14}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Data", "RyanPenfold.Utilities.Data\RyanPenfold.Utilities.Data.xproj", "{4186974C-A769-41A1-BA8D-60D6B5285522}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Security", "RyanPenfold.Utilities.Security\RyanPenfold.Utilities.Security.xproj", "{CFE7E78B-EFE3-4332-A815-44A3BB642E7A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Web", "RyanPenfold.Utilities.Web\RyanPenfold.Utilities.Web.xproj", "{B1324A6A-E2D2-4B86-B936-904408F0D835}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Windows.Forms", "RyanPenfold.Utilities.Windows.Forms\RyanPenfold.Utilities.Windows.Forms.xproj", "{1258E74D-0435-485B-ABE3-35B9D1713E0F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Xml", "RyanPenfold.Utilities.Xml\RyanPenfold.Utilities.Xml.xproj", "{7C5E138B-532B-4027-BE17-DF50C1C544BF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RyanPenfold.Utilities.Localization", "RyanPenfold.Utilities.Localization\RyanPenfold.Utilities.Localization.xproj", "{183A77BA-5BFF-47AA-B733-4DF01879068E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CE2978-A4B2-44B1-89BB-A967EDBB811B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CE2978-A4B2-44B1-89BB-A967EDBB811B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CE2978-A4B2-44B1-89BB-A967EDBB811B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CE2978-A4B2-44B1-89BB-A967EDBB811B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF775E8-BD5A-4035-BF8B-F949902A3E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF775E8-BD5A-4035-BF8B-F949902A3E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF775E8-BD5A-4035-BF8B-F949902A3E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF775E8-BD5A-4035-BF8B-F949902A3E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4186974C-A769-41A1-BA8D-60D6B5285522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4186974C-A769-41A1-BA8D-60D6B5285522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4186974C-A769-41A1-BA8D-60D6B5285522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4186974C-A769-41A1-BA8D-60D6B5285522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE7E78B-EFE3-4332-A815-44A3BB642E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE7E78B-EFE3-4332-A815-44A3BB642E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE7E78B-EFE3-4332-A815-44A3BB642E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE7E78B-EFE3-4332-A815-44A3BB642E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1324A6A-E2D2-4B86-B936-904408F0D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1324A6A-E2D2-4B86-B936-904408F0D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1324A6A-E2D2-4B86-B936-904408F0D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1324A6A-E2D2-4B86-B936-904408F0D835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1258E74D-0435-485B-ABE3-35B9D1713E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1258E74D-0435-485B-ABE3-35B9D1713E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1258E74D-0435-485B-ABE3-35B9D1713E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1258E74D-0435-485B-ABE3-35B9D1713E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5E138B-532B-4027-BE17-DF50C1C544BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5E138B-532B-4027-BE17-DF50C1C544BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5E138B-532B-4027-BE17-DF50C1C544BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5E138B-532B-4027-BE17-DF50C1C544BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183A77BA-5BFF-47AA-B733-4DF01879068E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183A77BA-5BFF-47AA-B733-4DF01879068E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183A77BA-5BFF-47AA-B733-4DF01879068E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183A77BA-5BFF-47AA-B733-4DF01879068E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RyanPenfold.Utilities.Data\\RyanPenfold.Utilities.Data.xproj
+		SccProjectName1 = RyanPenfold.Utilities.Data
+		SccLocalPath1 = RyanPenfold.Utilities.Data
+		SccProjectUniqueName2 = RyanPenfold.Utilities.Security\\RyanPenfold.Utilities.Security.xproj
+		SccProjectName2 = RyanPenfold.Utilities.Security
+		SccLocalPath2 = RyanPenfold.Utilities.Security
+		SccProjectUniqueName3 = RyanPenfold.Utilities.UI.Console\\RyanPenfold.Utilities.UI.Console.xproj
+		SccProjectName3 = RyanPenfold.Utilities.UI.Console
+		SccLocalPath3 = RyanPenfold.Utilities.UI.Console
+		SccProjectUniqueName4 = RyanPenfold.Utilities.Web\\RyanPenfold.Utilities.Web.xproj
+		SccProjectName4 = RyanPenfold.Utilities.Web
+		SccLocalPath4 = RyanPenfold.Utilities.Web
+		SccProjectUniqueName5 = RyanPenfold.Utilities.Windows.Forms\\RyanPenfold.Utilities.Windows.Forms.xproj
+		SccProjectName5 = RyanPenfold.Utilities.Windows.Forms
+		SccLocalPath5 = RyanPenfold.Utilities.Windows.Forms
+		SccProjectUniqueName6 = RyanPenfold.Utilities.Xml\\RyanPenfold.Utilities.Xml.xproj
+		SccProjectName6 = RyanPenfold.Utilities.Xml
+		SccLocalPath6 = RyanPenfold.Utilities.Xml
+		SccProjectUniqueName7 = RyanPenfold.Utilities\\RyanPenfold.Utilities.xproj
+		SccProjectName7 = RyanPenfold.Utilities
+		SccLocalPath7 = RyanPenfold.Utilities
+		SccProjectUniqueName8 = RyanPenfold.Utilities.Localization\\RyanPenfold.Utilities.Localization.xproj
+		SccProjectName8 = RyanPenfold.Utilities.Localization
+		SccLocalPath8 = RyanPenfold.Utilities.Localization
+	EndGlobalSection
+EndGlobal

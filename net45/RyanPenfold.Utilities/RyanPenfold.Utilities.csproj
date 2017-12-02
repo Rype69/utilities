@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B74CC041-EA6D-4E3E-A311-E812B303CD59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RyanPenfold.Utilities</RootNamespace>
+    <AssemblyName>RyanPenfold.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Array.cs" />
+    <Compile Include="Attributes\AliasAttribute.cs" />
+    <Compile Include="Attributes\ControlTypeAttribute.cs" />
+    <Compile Include="Attributes\IsPrimaryKeyAttribute.cs" />
+    <Compile Include="Boolean.cs" />
+    <Compile Include="Byte.cs" />
+    <Compile Include="Char.cs" />
+    <Compile Include="Collections\DateTimeEqualityComparer.cs" />
+    <Compile Include="Collections\Generic\Comparer.cs" />
+    <Compile Include="Collections\Generic\Enumerable.cs" />
+    <Compile Include="Collections\Generic\List.cs" />
+    <Compile Include="Collections\Specialized\NameValueCollection.cs" />
+    <Compile Include="Collections\TimeSpanEqualityComparer.cs" />
+    <Compile Include="ComponentModel\SortableBindingList.cs" />
+    <Compile Include="DateTime.cs" />
+    <Compile Include="Diagnostics\EventLog.cs" />
+    <Compile Include="Disposable.cs" />
+    <Compile Include="Drawing\Color.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Exception.cs" />
+    <Compile Include="Guid.cs" />
+    <Compile Include="Integer.cs" />
+    <Compile Include="IO\Directory.cs" />
+    <Compile Include="IO\File.cs" />
+    <Compile Include="IO\Filename.cs" />
+    <Compile Include="IO\Path.cs" />
+    <Compile Include="IO\StringWriter.cs" />
+    <Compile Include="IO\UncPath.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="Net\Dns.cs" />
+    <Compile Include="Net\IPAddress.cs" />
+    <Compile Include="Net\Mail\MailAddress.cs" />
+    <Compile Include="Net\Mail\MailMessage.cs" />
+    <Compile Include="Net\Mail\SmtpClient.cs" />
+    <Compile Include="Net\Network.cs" />
+    <Compile Include="Net\Ping.cs" />
+    <Compile Include="Net\PortScanner.cs" />
+    <Compile Include="Net\WebClient.cs" />
+    <Compile Include="Object.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random.cs" />
+    <Compile Include="Reflection\Assembly.cs" />
+    <Compile Include="Runtime\Serialization\StreamSerializer.cs" />
+    <Compile Include="Security\Cryptography\Hash.cs" />
+    <Compile Include="String.cs" />
+    <Compile Include="Text\StringBuilder.cs" />
+    <Compile Include="Type.cs" />
+    <Compile Include="Uri.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
