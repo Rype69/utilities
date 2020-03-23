@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Collections\Generic\ComparerTests.cs">
+      <Link>Collections\Generic\ComparerTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Collections\Generic\ListTests.cs">
+      <Link>Collections\Generic\ListTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Collections\Generic\Person.cs">
+      <Link>Collections\Generic\Person.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Aircraft.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\BooleanTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Car.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\CharTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\DateTimeTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\ExceptionTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\IO\Common.cs">
+      <Link>IO\Common.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\IO\FileTests.cs">
+      <Link>IO\FileTests.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\IO\UncPathTests.cs">
+      <Link>IO\UncPathTests.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\MathTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\ObjectTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\RandomTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\StringTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\TypeTests.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\UriTests.cs" />
+	<Compile Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\Vehicle.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\net45\RyanPenfold.Utilities.Tests.Unit\App.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,180 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities", "..\netstandard2.1\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj", "{12062DD0-93CE-4A13-BDB7-78EF77816CEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Data", "..\netstandard2.1\RyanPenfold.Utilities.Data\RyanPenfold.Utilities.Data.csproj", "{F798AE73-2A27-4FCC-A7AD-D9101096DDF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Resources", "..\netstandard2.1\RyanPenfold.Utilities.Resources\RyanPenfold.Utilities.Resources.csproj", "{2E348098-85B5-43BE-A046-EC6612D2C61E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Security", "..\netstandard2.1\RyanPenfold.Utilities.Security\RyanPenfold.Utilities.Security.csproj", "{CE5C2481-DD63-4622-819C-CD5504509BF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Web", "..\netcoreapp3.1\RyanPenfold.Utilities.Web\RyanPenfold.Utilities.Web.csproj", "{5C9E5FD9-BC90-42F3-8F00-8B76DAB64093}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Xamarin.Forms", "..\netstandard2.1\RyanPenfold.Utilities.Xamarin.Forms\RyanPenfold.Utilities.Xamarin.Forms.csproj", "{7D53D4FF-A051-4F9E-81F3-A32E85082DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Xml", "..\netstandard2.1\RyanPenfold.Utilities.Xml\RyanPenfold.Utilities.Xml.csproj", "{8F9C7239-5B45-4345-994E-8352B850DED1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F62DAEA9-3E64-4663-9B1C-A7434F503C24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Tests.Unit", "RyanPenfold.Utilities.Tests.Unit\RyanPenfold.Utilities.Tests.Unit.csproj", "{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit", "RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit\RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit.csproj", "{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Data.Tests.Integration", "RyanPenfold.Utilities.Data.Tests.Integration\RyanPenfold.Utilities.Data.Tests.Integration.csproj", "{385F22D0-87D4-44C2-9868-374B8E0E8B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Data.Tests.Unit", "RyanPenfold.Utilities.Data.Tests.Unit\RyanPenfold.Utilities.Data.Tests.Unit.csproj", "{E900CFBA-C210-4E9E-9EE5-C329733F5EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Resources.Tests.Unit", "RyanPenfold.Utilities.Resources.Tests.Unit\RyanPenfold.Utilities.Resources.Tests.Unit.csproj", "{87D41419-CACC-4E74-9734-8E7EC7626A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Security.Tests.Unit", "RyanPenfold.Utilities.Security.Tests.Unit\RyanPenfold.Utilities.Security.Tests.Unit.csproj", "{8396BC66-EB5C-4188-9F38-A8C16FB5C36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Web.Tests.Unit", "RyanPenfold.Utilities.Web.Tests.Unit\RyanPenfold.Utilities.Web.Tests.Unit.csproj", "{37843895-3AEF-4A53-8B63-611352EC51F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Xml.Tests.Unit", "RyanPenfold.Utilities.Xml.Tests.Unit\RyanPenfold.Utilities.Xml.Tests.Unit.csproj", "{DFA3C81B-E355-4A01-B30D-DA4748096F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12062DD0-93CE-4A13-BDB7-78EF77816CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12062DD0-93CE-4A13-BDB7-78EF77816CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12062DD0-93CE-4A13-BDB7-78EF77816CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12062DD0-93CE-4A13-BDB7-78EF77816CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F798AE73-2A27-4FCC-A7AD-D9101096DDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F798AE73-2A27-4FCC-A7AD-D9101096DDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F798AE73-2A27-4FCC-A7AD-D9101096DDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F798AE73-2A27-4FCC-A7AD-D9101096DDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E348098-85B5-43BE-A046-EC6612D2C61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E348098-85B5-43BE-A046-EC6612D2C61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E348098-85B5-43BE-A046-EC6612D2C61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E348098-85B5-43BE-A046-EC6612D2C61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5C2481-DD63-4622-819C-CD5504509BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5C2481-DD63-4622-819C-CD5504509BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5C2481-DD63-4622-819C-CD5504509BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5C2481-DD63-4622-819C-CD5504509BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9E5FD9-BC90-42F3-8F00-8B76DAB64093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9E5FD9-BC90-42F3-8F00-8B76DAB64093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9E5FD9-BC90-42F3-8F00-8B76DAB64093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9E5FD9-BC90-42F3-8F00-8B76DAB64093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D53D4FF-A051-4F9E-81F3-A32E85082DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D53D4FF-A051-4F9E-81F3-A32E85082DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D53D4FF-A051-4F9E-81F3-A32E85082DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D53D4FF-A051-4F9E-81F3-A32E85082DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9C7239-5B45-4345-994E-8352B850DED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9C7239-5B45-4345-994E-8352B850DED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9C7239-5B45-4345-994E-8352B850DED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9C7239-5B45-4345-994E-8352B850DED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385F22D0-87D4-44C2-9868-374B8E0E8B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385F22D0-87D4-44C2-9868-374B8E0E8B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385F22D0-87D4-44C2-9868-374B8E0E8B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385F22D0-87D4-44C2-9868-374B8E0E8B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E900CFBA-C210-4E9E-9EE5-C329733F5EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E900CFBA-C210-4E9E-9EE5-C329733F5EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E900CFBA-C210-4E9E-9EE5-C329733F5EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E900CFBA-C210-4E9E-9EE5-C329733F5EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D41419-CACC-4E74-9734-8E7EC7626A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D41419-CACC-4E74-9734-8E7EC7626A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D41419-CACC-4E74-9734-8E7EC7626A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D41419-CACC-4E74-9734-8E7EC7626A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8396BC66-EB5C-4188-9F38-A8C16FB5C36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8396BC66-EB5C-4188-9F38-A8C16FB5C36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8396BC66-EB5C-4188-9F38-A8C16FB5C36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8396BC66-EB5C-4188-9F38-A8C16FB5C36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37843895-3AEF-4A53-8B63-611352EC51F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37843895-3AEF-4A53-8B63-611352EC51F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37843895-3AEF-4A53-8B63-611352EC51F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37843895-3AEF-4A53-8B63-611352EC51F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA3C81B-E355-4A01-B30D-DA4748096F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA3C81B-E355-4A01-B30D-DA4748096F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA3C81B-E355-4A01-B30D-DA4748096F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA3C81B-E355-4A01-B30D-DA4748096F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0F48EB0-6BF5-4D2C-A94A-FF3B7EAF7516} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{F8C198DC-FDB9-49B9-8DAE-71629EF6E71C} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{385F22D0-87D4-44C2-9868-374B8E0E8B43} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{E900CFBA-C210-4E9E-9EE5-C329733F5EA9} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{87D41419-CACC-4E74-9734-8E7EC7626A13} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{8396BC66-EB5C-4188-9F38-A8C16FB5C36C} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{37843895-3AEF-4A53-8B63-611352EC51F3} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+		{DFA3C81B-E355-4A01-B30D-DA4748096F62} = {F62DAEA9-3E64-4663-9B1C-A7434F503C24}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81D8D29B-239D-4018-A5D8-6BD807EA0A19}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\netstandard2.1\\RyanPenfold.Utilities\\RyanPenfold.Utilities.csproj
+		SccProjectName1 = ../netstandard2.1/RyanPenfold.Utilities
+		SccLocalPath1 = ..\\netstandard2.1\\RyanPenfold.Utilities
+		SccProjectUniqueName2 = ..\\netstandard2.1\\RyanPenfold.Utilities.Data\\RyanPenfold.Utilities.Data.csproj
+		SccProjectName2 = ../netstandard2.1/RyanPenfold.Utilities.Data
+		SccLocalPath2 = ..\\netstandard2.1\\RyanPenfold.Utilities.Data
+		SccProjectUniqueName3 = ..\\netstandard2.1\\RyanPenfold.Utilities.Resources\\RyanPenfold.Utilities.Resources.csproj
+		SccProjectName3 = ../netstandard2.1/RyanPenfold.Utilities.Resources
+		SccLocalPath3 = ..\\netstandard2.1\\RyanPenfold.Utilities.Resources
+		SccProjectUniqueName4 = ..\\netstandard2.1\\RyanPenfold.Utilities.Security\\RyanPenfold.Utilities.Security.csproj
+		SccProjectName4 = ../netstandard2.1/RyanPenfold.Utilities.Security
+		SccLocalPath4 = ..\\netstandard2.1\\RyanPenfold.Utilities.Security
+		SccProjectUniqueName5 = ..\\netstandard2.1\\RyanPenfold.Utilities.Web\\RyanPenfold.Utilities.Web.csproj
+		SccProjectName5 = ../netstandard2.1/RyanPenfold.Utilities.Web
+		SccLocalPath5 = ..\\netstandard2.1\\RyanPenfold.Utilities.Web
+		SccProjectUniqueName6 = ..\\netstandard2.1\\RyanPenfold.Utilities.Xamarin.Forms\\RyanPenfold.Utilities.Xamarin.Forms.csproj
+		SccProjectName6 = ../netstandard2.1/RyanPenfold.Utilities.Xamarin.Forms
+		SccLocalPath6 = ..\\netstandard2.1\\RyanPenfold.Utilities.Xamarin.Forms
+		SccProjectUniqueName7 = ..\\netstandard2.1\\RyanPenfold.Utilities.Xml\\RyanPenfold.Utilities.Xml.csproj
+		SccProjectName7 = ../netstandard2.1/RyanPenfold.Utilities.Xml
+		SccLocalPath7 = ..\\netstandard2.1\\RyanPenfold.Utilities.Xml
+		SccProjectUniqueName8 = RyanPenfold.Utilities.Tests.Unit\\RyanPenfold.Utilities.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName8 = RyanPenfold.Utilities.sln
+		SccProjectName8 = RyanPenfold.Utilities.Tests.Unit
+		SccLocalPath8 = RyanPenfold.Utilities.Tests.Unit
+		SccProjectUniqueName9 = RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit\\RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName9 = RyanPenfold.Utilities.sln
+		SccProjectName9 = RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit
+		SccLocalPath9 = RyanPenfold.Utilities.Xamarin.Forms.Tests.Unit
+		SccProjectUniqueName10 = RyanPenfold.Utilities.Data.Tests.Integration\\RyanPenfold.Utilities.Data.Tests.Integration.csproj
+		SccProjectTopLevelParentUniqueName10 = RyanPenfold.Utilities.sln
+		SccProjectName10 = RyanPenfold.Utilities.Data.Tests.Integration
+		SccLocalPath10 = RyanPenfold.Utilities.Data.Tests.Integration
+		SccProjectUniqueName11 = RyanPenfold.Utilities.Data.Tests.Unit\\RyanPenfold.Utilities.Data.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName11 = RyanPenfold.Utilities.sln
+		SccProjectName11 = RyanPenfold.Utilities.Data.Tests.Unit
+		SccLocalPath11 = RyanPenfold.Utilities.Data.Tests.Unit
+		SccProjectUniqueName12 = RyanPenfold.Utilities.Resources.Tests.Unit\\RyanPenfold.Utilities.Resources.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName12 = RyanPenfold.Utilities.sln
+		SccProjectName12 = RyanPenfold.Utilities.Resources.Tests.Unit
+		SccLocalPath12 = RyanPenfold.Utilities.Resources.Tests.Unit
+		SccProjectUniqueName13 = RyanPenfold.Utilities.Security.Tests.Unit\\RyanPenfold.Utilities.Security.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName13 = RyanPenfold.Utilities.sln
+		SccProjectName13 = RyanPenfold.Utilities.Security.Tests.Unit
+		SccLocalPath13 = RyanPenfold.Utilities.Security.Tests.Unit
+		SccProjectUniqueName14 = RyanPenfold.Utilities.Web.Tests.Unit\\RyanPenfold.Utilities.Web.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName14 = RyanPenfold.Utilities.sln
+		SccProjectName14 = RyanPenfold.Utilities.Web.Tests.Unit
+		SccLocalPath14 = RyanPenfold.Utilities.Web.Tests.Unit
+		SccProjectUniqueName15 = RyanPenfold.Utilities.Xml.Tests.Unit\\RyanPenfold.Utilities.Xml.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName15 = RyanPenfold.Utilities.sln
+		SccProjectName15 = RyanPenfold.Utilities.Xml.Tests.Unit
+		SccLocalPath15 = RyanPenfold.Utilities.Xml.Tests.Unit
+	EndGlobalSection
+EndGlobal

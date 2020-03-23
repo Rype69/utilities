@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Boolean.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Char.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\Enumerable.cs">
+      <Link>Collections\Generic\Enumerable.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\List.cs">
+      <Link>Collections\Generic\List.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\DateTimeEqualityComparer.cs">
+      <Link>Collections\DateTimeEqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\Comparer.cs">
+      <Link>Collections\Generic\Comparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\DateTime.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Disposable.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Exception.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\File.cs">
+      <Link>IO\File.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\UncPath.cs">
+      <Link>IO\UncPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Math.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Object.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Random.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Reflection\Assembly.cs">
+      <Link>Reflection\Assembly.cs</Link>
+    </Compile>	
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\String.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Text\StringBuilder.cs">
+      <Link>Text\StringBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Type.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Uri.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.0.2" />
+  </ItemGroup>
+  
+</Project>

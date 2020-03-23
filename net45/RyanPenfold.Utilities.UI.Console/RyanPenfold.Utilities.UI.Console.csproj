@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE13D40C-4E31-46B5-BC94-7D47A23A97BF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RyanPenfold.Utilities.UI.Console</RootNamespace>
+    <AssemblyName>RyanPenfold.Utilities.UI.Console</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Data\RyanPenfold.Utilities.Data.csproj">
+      <Project>{dc9500b2-998f-4a68-a950-4ac94cbce3e0}</Project>
+      <Name>RyanPenfold.Utilities.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Resources\RyanPenfold.Utilities.Resources.csproj">
+      <Project>{2d613448-60dd-4798-bd8f-2de568afedd4}</Project>
+      <Name>RyanPenfold.Utilities.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Security\RyanPenfold.Utilities.Security.csproj">
+      <Project>{2c67dad3-741c-4569-82c7-3cb3702743fd}</Project>
+      <Name>RyanPenfold.Utilities.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Web\RyanPenfold.Utilities.Web.csproj">
+      <Project>{19014fd3-7596-45e1-b9bc-6dcb6ec531bb}</Project>
+      <Name>RyanPenfold.Utilities.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Windows.Forms\RyanPenfold.Utilities.Windows.Forms.csproj">
+      <Project>{f1a02053-8f34-4f02-b7f4-084cc49f3402}</Project>
+      <Name>RyanPenfold.Utilities.Windows.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities.Xml\RyanPenfold.Utilities.Xml.csproj">
+      <Project>{774f689d-84b6-46d4-8264-6590efd2fe6a}</Project>
+      <Name>RyanPenfold.Utilities.Xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
+      <Project>{b74cc041-ea6d-4e3e-a311-e812b303cd59}</Project>
+      <Name>RyanPenfold.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18B5839D-F0E3-4909-971F-5E5C7385AD61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RyanPenfold.Utilities.Data</RootNamespace>
+    <AssemblyName>RyanPenfold.Utilities.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\DataTable.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\ScriptGenerator.cs">
+      <Link>SqlClient\ScriptGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlCommand.cs">
+      <Link>SqlClient\SqlCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlFunctions.cs">
+      <Link>SqlClient\SqlFunctions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlObjectType.cs">
+      <Link>SqlClient\SqlObjectType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlTable.cs">
+      <Link>SqlClient\SqlTable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlDbType.cs">
+      <Link>SqlClient\SqlDbType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlDbType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
+      <Project>{6B248F86-CC97-49F6-96F2-9200707544A4}</Project>
+      <Name>RyanPenfold.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CREATE TABLE.sql">
+      <Link>SQL\CREATE TABLE.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CREATE TABLE.FULL.sql">
+      <Link>SQL\CREATE TABLE.FULL.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CreateSchemataAndTablesGenerator.sql">
+      <Link>SQL\CreateSchemataAndTablesGenerator.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CreateTableGenerator.sql">
+      <Link>SQL\CreateTableGenerator.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\GenerateInsertStatements.sql">
+      <Link>SQL\GenerateInsertStatements.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\SelectForeignKeys.sql">
+      <Link>SQL\SelectForeignKeys.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\SelectPrimaryKeys.sql">
+      <Link>SQL\SelectPrimaryKeys.sql</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

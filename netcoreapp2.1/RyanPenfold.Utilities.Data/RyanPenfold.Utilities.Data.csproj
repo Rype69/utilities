@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\DataTable.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\ScriptGenerator.cs">
+      <Link>SqlClient\ScriptGenerator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\netstandard2.0\RyanPenfold.Utilities.Data\SqlClient\SqlCommand.cs">
+      <Link>SqlClient\SqlCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlDbType.cs">
+      <Link>SqlClient\SqlDbType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlFunctions.cs">
+      <Link>SqlClient\SqlFunctions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlObjectType.cs">
+      <Link>SqlClient\SqlObjectType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlClient\SqlTable.cs">
+      <Link>SqlClient\SqlTable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities.Data\SqlDbType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CREATE TABLE.FULL.sql">
+      <Link>SQL\CREATE TABLE.FULL.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CREATE TABLE.sql">
+      <Link>SQL\CREATE TABLE.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CreateSchemataAndTablesGenerator.sql">
+      <Link>SQL\CreateSchemataAndTablesGenerator.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\CreateTableGenerator.sql">
+      <Link>SQL\CreateTableGenerator.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\GenerateInsertStatements.sql">
+      <Link>SQL\GenerateInsertStatements.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\SelectForeignKeys.sql">
+      <Link>SQL\SelectForeignKeys.sql</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.Utilities.Data\SQL\SelectPrimaryKeys.sql">
+      <Link>SQL\SelectPrimaryKeys.sql</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

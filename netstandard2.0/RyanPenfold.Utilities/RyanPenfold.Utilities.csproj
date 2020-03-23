@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Array.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Attributes\AliasAttribute.cs">
+      <Link>Attributes\AliasAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Attributes\ControlTypeAttribute.cs">
+      <Link>Attributes\ControlTypeAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Attributes\IsPrimaryKeyAttribute.cs">
+      <Link>Attributes\IsPrimaryKeyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Boolean.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Byte.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Char.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\DateTimeEqualityComparer.cs">
+      <Link>Collections\DateTimeEqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\EqualityComparer.cs">
+      <Link>Collections\EqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\Comparer.cs">
+      <Link>Collections\Generic\Comparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\Enumerable.cs">
+      <Link>Collections\Generic\Enumerable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Generic\List.cs">
+      <Link>Collections\Generic\List.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\Specialized\NameValueCollection.cs">
+      <Link>Collections\Specialized\NameValueCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Collections\TimeSpanEqualityComparer.cs">
+      <Link>Collections\TimeSpanEqualityComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\ComponentModel\SortableBindingList.cs">
+      <Link>ComponentModel\SortableBindingList.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\DateTime.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Disposable.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Drawing\Color.cs">
+      <Link>Drawing\Color.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Enum.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Exception.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Guid.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Integer.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\Directory.cs">
+      <Link>IO\Directory.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\File.cs">
+      <Link>IO\File.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\Filename.cs">
+      <Link>IO\Filename.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\Path.cs">
+      <Link>IO\Path.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\StringWriter.cs">
+      <Link>IO\StringWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\IO\UncPath.cs">
+      <Link>IO\UncPath.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Math.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\Dns.cs">
+      <Link>Net\Dns.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\IPAddress.cs">
+      <Link>Net\IPAddress.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\Network.cs">
+      <Link>Net\Network.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\Ping.cs">
+      <Link>Net\Ping.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\PortScanner.cs">
+      <Link>Net\PortScanner.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Net\WebClient.cs">
+      <Link>Net\WebClient.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Object.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Random.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Reflection\Assembly.cs">
+      <Link>Reflection\Assembly.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Runtime\Serialization\StreamSerializer.cs">
+      <Link>Runtime\Serialization\StreamSerializer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\String.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Text\StringBuilder.cs">
+      <Link>Text\StringBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Type.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.Utilities\Uri.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
